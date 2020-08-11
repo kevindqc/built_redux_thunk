@@ -49,5 +49,5 @@ var store = new Store<Counter, CounterBuilder, CounterActions>(
 Dispatch the thunk
 
 ```dart
-store.actions.thunkDispatcher(httpRquestThunk('http://example.com/'));
+store.actions.thunkDispatcher(httpRequestThunk('http://example.com/'));
 ```
